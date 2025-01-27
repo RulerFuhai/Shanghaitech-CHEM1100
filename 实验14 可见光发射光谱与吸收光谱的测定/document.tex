@@ -1,0 +1,80 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{array}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{makecell}
+\usepackage{ctex}
+\geometry{a4paper, margin=1in}
+
+\begin{document}
+	
+	\section*{\textbf{四、实验数据和实验现象记录表}}
+	
+	\subsection*{4.1 发射光谱测试记录表}
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|p{3cm}|p{3cm}|p{4cm}|p{5cm}|}
+			\hline
+			\textbf{光源} & \textbf{测试日期} & \textbf{主要峰/带位置 (nm)} & \textbf{光谱特征及现象} \\
+			\hline
+			荧光灯 &  & \makecell[l]{~435、545、611\\等} & 离散多峰，含汞发射\\ + 荧光粉辅助发光 \\
+			\hline
+			氙灯 &  & ~350 ~ 800 范围 & 连续带 + 氙特征发射线 \\
+			\hline
+			卤钨灯 &  & ~400 ~ 800 连续 & 类似黑体辐射的连续光谱 \\
+			\hline
+			白光 LED &  & 450 nm + 宽带发射 & \makecell[l]{450 nm 蓝光芯片\\ + 荧光粉形成白光} \\
+			\hline
+			太阳 (室外) &  & ~400 ~ 800 连续 & \makecell[l]{连续光谱，弱吸收特征\\ (若设备灵敏度足够)} \\
+			\hline
+		\end{tabular}
+		\caption{发射光谱测试记录表}
+	\end{table}
+	
+	\subsection*{4.2 吸收光谱测试记录表}
+	(a) 三氯化六氨合钴
+	
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{4cm}|}
+			\hline
+			\textbf{溶液名称} & \textbf{浓度 (g/20 mL)} & \textbf{主要吸收峰 (nm)} & \textbf{吸收峰对应能量 (eV)} & \textbf{现象描述} \\
+			\hline
+			$[\text{Co(NH}_3\text{)}_6]$Cl$_3$ & 0.1 / 20 mL & \makecell[l]{例：470、550} & \makecell[l]{例：2.64、2.25} & 溶液呈淡红~橙色，\\有特征吸收带 \\
+			\hline
+		\end{tabular}
+		\caption{三氯化六氨合钴吸收光谱测试记录表}
+	\end{table}
+	
+	(b) CuInS$_2$ 量子点
+	
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{3cm}|p{4cm}|}
+			\hline
+			\textbf{样品名称} & \textbf{参比} & \textbf{起峰点 (nm)} & \textbf{起峰点对应能量 (eV)} & \textbf{与 1.50 eV 比较} & \textbf{现象描述} \\
+			\hline
+			CuInS$_2$ (QD) & 正己烷 & \makecell[l]{例：600 nm} & \makecell[l]{例：2.07 eV} & 大于 1.50 eV → 量子点 & \makecell[l]{溶液呈浅色~橙黄透明，\\带荧光} \\
+			\hline
+		\end{tabular}
+		\caption{CuInS$_2$ 量子点吸收光谱测试记录表}
+	\end{table}
+	
+	\subsection*{4.3 荧光光谱测试记录表}
+	\begin{table}[htbp]
+		\centering
+		\begin{tabular}{|p{3cm}|p{3cm}|p{4cm}|p{3cm}|p{4cm}|}
+			\hline
+			\textbf{样品名称} & \textbf{激发光源 (nm)} & \textbf{荧光峰范围 (nm)} & \textbf{发射峰峰顶 (nm)} & \textbf{现象描述} \\
+			\hline
+			CuInS$_2$ (QD) & 450 nm & \makecell[l]{例：550 - 800 nm\\宽带} & \makecell[l]{例：650 nm} & \makecell[l]{显示可见光区内\\明显的宽带发射} \\
+			\hline
+		\end{tabular}
+		\caption{荧光光谱测试记录表}
+	\end{table}
+	
+\end{document}

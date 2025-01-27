@@ -1,0 +1,16 @@
+%chk=N2.chk
+%mem=60MW
+%nproc=1
+# hf/sto-3g pop=full geom=connectivity
+
+N2 molecule
+
+0 1
+ N
+ N                  1              B1
+
+   B1             1.08283400
+
+ 1 2 3.0
+ 2
+

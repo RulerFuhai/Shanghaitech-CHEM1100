@@ -1,0 +1,2 @@
+GaussView site license versions now support silent installs.
+Please contact help@gaussian.com for details.

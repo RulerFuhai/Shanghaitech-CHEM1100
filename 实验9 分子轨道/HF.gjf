@@ -1,0 +1,16 @@
+%chk=HF.chk
+%mem=60MW
+%nproc=1
+# hf/sto-3g pop=full geom=connectivity
+
+HF molecule
+
+0 1
+ F
+ H                  1              B1
+
+   B1             0.95546100
+
+ 1
+ 2
+

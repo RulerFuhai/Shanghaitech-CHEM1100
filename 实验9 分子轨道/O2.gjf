@@ -1,0 +1,14 @@
+%chk=D:\000Awilliam\O2.chk
+%mem=60MW
+%nprocshared=1
+# rohf/sto-3g geom=connectivity pop=full
+
+O2 triplet
+
+0 3
+ O                  0.00000000    0.00000000    0.00000000
+ O                  0.00000000    0.00000000    1.19484200
+
+ 1 2 1.5
+ 2
+

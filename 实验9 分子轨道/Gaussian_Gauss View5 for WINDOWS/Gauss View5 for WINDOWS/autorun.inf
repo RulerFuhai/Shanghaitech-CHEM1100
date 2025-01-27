@@ -1,0 +1,4 @@
+[autorun]
+OPEN=SETUP.EXE
+ICON=GVIEW.ICO
+LABEL=GaussView 5.0.9
